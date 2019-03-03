@@ -22,5 +22,18 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This is a simple project I made using React to display the shiny odds while shiny hunting in the Let's Go games.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShinySylveon04/shiny-counter.git"
+  },
+  "author": "ShinySylveon04",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShinySylveon04/shiny-counter/issues"
+  },
+  "homepage": "https://github.com/ShinySylveon04/shiny-counter#readme"
 }
