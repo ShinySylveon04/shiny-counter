@@ -12,7 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,7 +26,9 @@
   ],
   "description": "This is a simple project I made using React to display the shiny odds while shiny hunting in the Let's Go games.",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ShinySylveon04/shiny-counter.git"
