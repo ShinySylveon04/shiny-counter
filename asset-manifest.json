@@ -1,13 +1,13 @@
 {
-  "main.css": "/ShinySylveon04/shiny-counter/static/css/main.da434207.chunk.css",
-  "main.js": "/ShinySylveon04/shiny-counter/static/js/main.d0737fbc.chunk.js",
-  "main.js.map": "/ShinySylveon04/shiny-counter/static/js/main.d0737fbc.chunk.js.map",
-  "runtime~main.js": "/ShinySylveon04/shiny-counter/static/js/runtime~main.841ea94b.js",
-  "runtime~main.js.map": "/ShinySylveon04/shiny-counter/static/js/runtime~main.841ea94b.js.map",
-  "static/js/2.b7ec4825.chunk.js": "/ShinySylveon04/shiny-counter/static/js/2.b7ec4825.chunk.js",
-  "static/js/2.b7ec4825.chunk.js.map": "/ShinySylveon04/shiny-counter/static/js/2.b7ec4825.chunk.js.map",
-  "index.html": "/ShinySylveon04/shiny-counter/index.html",
-  "precache-manifest.cec47d689719eb89bf3a3e2089f49aa4.js": "/ShinySylveon04/shiny-counter/precache-manifest.cec47d689719eb89bf3a3e2089f49aa4.js",
-  "service-worker.js": "/ShinySylveon04/shiny-counter/service-worker.js",
-  "static/css/main.da434207.chunk.css.map": "/ShinySylveon04/shiny-counter/static/css/main.da434207.chunk.css.map"
+  "main.css": "/shiny-counter/static/css/main.da434207.chunk.css",
+  "main.js": "/shiny-counter/static/js/main.536ff352.chunk.js",
+  "main.js.map": "/shiny-counter/static/js/main.536ff352.chunk.js.map",
+  "runtime~main.js": "/shiny-counter/static/js/runtime~main.7764cc9b.js",
+  "runtime~main.js.map": "/shiny-counter/static/js/runtime~main.7764cc9b.js.map",
+  "static/js/2.b7ec4825.chunk.js": "/shiny-counter/static/js/2.b7ec4825.chunk.js",
+  "static/js/2.b7ec4825.chunk.js.map": "/shiny-counter/static/js/2.b7ec4825.chunk.js.map",
+  "index.html": "/shiny-counter/index.html",
+  "precache-manifest.3e8a093dd338e6e8753a332df282403e.js": "/shiny-counter/precache-manifest.3e8a093dd338e6e8753a332df282403e.js",
+  "service-worker.js": "/shiny-counter/service-worker.js",
+  "static/css/main.da434207.chunk.css.map": "/shiny-counter/static/css/main.da434207.chunk.css.map"
 }

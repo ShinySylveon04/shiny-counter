@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ShinySylveon04/shiny-counter/precache-manifest.cec47d689719eb89bf3a3e2089f49aa4.js"
+  "/shiny-counter/precache-manifest.3e8a093dd338e6e8753a332df282403e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ShinySylveon04/shiny-counter/index.html", {
+workbox.routing.registerNavigationRoute("/shiny-counter/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
