@@ -116,3 +116,19 @@
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+img {
+  margin: 15px;
+}
+
+.pokemonInput {
+  border: none;
+  font: 1em/1.4 Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(41, 73, 130);
+  text-align: center;
+}
+
+.pokemonLabel {
+  border: 1px solid rgb(41, 73, 130);
+  padding: 2px;
+}

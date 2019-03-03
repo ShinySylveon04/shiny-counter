@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import _ from "lodash";
 import "./App.css";
 
 import { ShinyOdds } from "./components/ShinyOdds.js";
 import { Settings } from "./components/Settings.js";
 import { Counter } from "./components/Counter.js";
+import { Pokemon } from "./components/Pokemon.js";
 import { ShinyOddsTable, CATCH_COMBO } from "./utils/calcShinyOdds.js";
 
 class App extends Component {
@@ -13,11 +15,18 @@ class App extends Component {
       comboCounterValue: 0,
       totalCounterValue: 0,
       shinyCharm: false,
-      lure: false
+      lure: false,
+      pokemonName: "Eevee"
     };
+
+    this.handlePokemonNameChange = _.debounce(
+      this.handleChange || _.noop,
+      1500
+    );
 
     this.changeShinyCharm = this.changeShinyCharm.bind(this);
     this.changeLure = this.changeLure.bind(this);
+    this.handlePokemonNameChange = this.handlePokemonNameChange.bind(this);
   }
 
   changeShinyCharm() {
@@ -25,6 +34,9 @@ class App extends Component {
   }
   changeLure() {
     return this.setState({ lure: !this.state.lure });
+  }
+  handleChange(name) {
+    return this.setState({ pokemonName: name });
   }
 
   render() {
@@ -62,6 +74,10 @@ class App extends Component {
         <div className="header">
           <h1>Let's Go Shiny Counter</h1>
         </div>
+        <Pokemon
+          pokemonName={this.state.pokemonName}
+          handleChange={this.handlePokemonNameChange}
+        />
         <ShinyOdds value={`${(shinyChanceNum * 100).toFixed(4)}%`} />
         <Counter
           headerText={`Combo Count`}
@@ -77,6 +93,10 @@ class App extends Component {
           onShinyCharmChange={this.changeShinyCharm}
           onLureChange={this.changeLure}
         />
+        <div style={{ fontSize: "10px", textAlign: "center" }}>
+          Pokémon And All Respective Names are Trademark & © of Nintendo
+          1996-2019
+        </div>
       </>
     );
   }
