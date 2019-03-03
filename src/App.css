@@ -41,7 +41,7 @@
   padding: 10px;
   font-size: 1rem;
   color: #757575;
-  text-align: left;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -61,7 +61,6 @@
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
   cursor: pointer;
   font-size: 15px;
   -webkit-user-select: none;
@@ -69,6 +68,9 @@
   -ms-user-select: none;
   user-select: none;
   line-height: 190%;
+  width: 100px;
+  margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 .container input {

@@ -4,7 +4,7 @@ export function Settings(props) {
   return (
     <div className="box">
       <div className="boxHeader">Settings</div>
-      <div className="boxBody">
+      <div className="boxBody" style={{ textAlign: "left" }}>
         <label className="container">
           Shiny Charm
           <input type="checkbox" onClick={props.onShinyCharmChange} />
