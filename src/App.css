@@ -10,9 +10,13 @@
 
 .header {
   text-align: center;
-  font: 1em/1.4 Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.4rem;
-  color: rgb(41, 73, 130);
+  font: 1.4em/1.4 Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-color: rgb(41, 73, 130);
+  border-radius: 5px;
+  max-width: 500px;
+  min-width: 220px;
+  margin: 0 auto;
 }
 
 .boxHeader {

@@ -4,4 +4,6 @@ This is a simple project I made using React to display the shiny odds while shin
 
 The shiny odds were taken from serebii, which were the datamined values found in the games from SciresM.
 
+Pokemon images/gifs are from https://play.pokemonshowdown.com/sprites/.
+
 A special thank you to @zaksabeast for helping me whenever I needed it :)
