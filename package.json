@@ -13,6 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -38,5 +39,5 @@
   "bugs": {
     "url": "https://github.com/ShinySylveon04/shiny-counter/issues"
   },
-  "homepage": "https://github.com/ShinySylveon04/shiny-counter#readme"
+  "homepage": "http://ShinySylveon04.github.io/shiny-counter"
 }
