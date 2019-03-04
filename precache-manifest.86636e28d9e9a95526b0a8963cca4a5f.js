@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/shiny-counter/static/js/runtime~main.7764cc9b.js"
   },
   {
-    "revision": "e2a96c8621878b66d4cf",
-    "url": "/shiny-counter/static/js/main.e2a96c86.chunk.js"
+    "revision": "193ee0f8971b5ecb0392",
+    "url": "/shiny-counter/static/js/main.193ee0f8.chunk.js"
   },
   {
     "revision": "b7ec48258e96317cba3c",
     "url": "/shiny-counter/static/js/2.b7ec4825.chunk.js"
   },
   {
-    "revision": "e2a96c8621878b66d4cf",
-    "url": "/shiny-counter/static/css/main.8f871788.chunk.css"
+    "revision": "193ee0f8971b5ecb0392",
+    "url": "/shiny-counter/static/css/main.cc8d36d5.chunk.css"
   },
   {
-    "revision": "de40c94789d0711d36d5710ff20176a2",
+    "revision": "2f2e27a93530287da42faae9861b4c15",
     "url": "/shiny-counter/index.html"
   }
 ];
