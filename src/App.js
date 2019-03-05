@@ -7,6 +7,7 @@ import { Settings } from "./components/Settings.js";
 import { Counter } from "./components/Counter.js";
 import { Pokemon } from "./components/Pokemon.js";
 import { ShinyOddsTable, CATCH_COMBO } from "./utils/calcShinyOdds.js";
+import { species } from "./utils/species.js";
 
 class App extends Component {
   constructor(props) {
@@ -16,13 +17,11 @@ class App extends Component {
       totalCounterValue: 0,
       shinyCharm: false,
       lure: false,
-      pokemonName: "Eevee"
+      pokemonName: "Eevee",
+      isError: false
     };
 
-    this.handlePokemonNameChange = _.debounce(
-      this.handleChange || _.noop,
-      1500
-    );
+    this.handlePokemonNameChange = _.debounce(this.handleChange || _.noop, 500);
 
     this.changeShinyCharm = this.changeShinyCharm.bind(this);
     this.changeLure = this.changeLure.bind(this);
@@ -36,7 +35,13 @@ class App extends Component {
     return this.setState({ lure: !this.state.lure });
   }
   handleChange(name) {
-    return this.setState({ pokemonName: name });
+    const doesPokemonExist = species.indexOf(_.capitalize(name)) !== -1;
+
+    if (doesPokemonExist) {
+      this.setState({ pokemonName: name });
+    }
+
+    this.setState({ isError: !doesPokemonExist });
   }
 
   render() {
@@ -77,6 +82,7 @@ class App extends Component {
         <Pokemon
           pokemonName={this.state.pokemonName}
           handleChange={this.handlePokemonNameChange}
+          isError={this.state.isError}
         />
         <ShinyOdds value={`${(shinyChanceNum * 100).toFixed(4)}%`} />
         <Counter
